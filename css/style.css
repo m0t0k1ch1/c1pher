@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+div.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+main div.logo img {
+    height: 256px;
+}
+
+main div.links {
+    margin-top: 100px;
+}
+
+main div.links li {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+main div.links a {
+    color: #333;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: auto;
+    height: 60px;
+    text-align: center;
+}
+
+footer span {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 60px;
+}
+
+footer span a {
+    color: #ccc;
+}
