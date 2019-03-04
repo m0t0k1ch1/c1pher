@@ -29,6 +29,7 @@ main div.links {
 main div.links li {
     color: #333;
     font-size: 14px;
+    font-weight: bold;
     line-height: 20px;
 }
 
@@ -46,6 +47,7 @@ footer {
 footer span {
     color: #ccc;
     font-size: 12px;
+    font-weight: bold;
     line-height: 60px;
 }
 
